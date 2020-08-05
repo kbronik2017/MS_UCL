@@ -1,7 +1,7 @@
-[![GitHub issues](https://img.shields.io/github/issues/UCLBrain/MSLS)](https://github.com/UCLBrain/MSLS/issues)
-[![GitHub forks](https://img.shields.io/github/forks/UCLBrain/MSLS)](https://github.com/UCLBrain/MSLS/network)
-[![GitHub stars](https://img.shields.io/github/stars/UCLBrain/MSLS)](https://github.com/UCLBrain/MSLS/stargazers)
-[![GitHub license](https://img.shields.io/github/license/UCLBrain/MSLS)](https://github.com/UCLBrain/MSLS/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/kbronik2017/UCL_MS)](https://github.com/kbronik2017/UCL_MS/issues)
+[![GitHub forks](https://img.shields.io/github/forks/kbronik2017/UCL_MS)](https://github.com/kbronik2017/UCL_MS/network)
+[![GitHub stars](https://img.shields.io/github/stars/kbronik2017/UCL_MS)](https://github.com/kbronik2017/UCL_MS/stargazers)
+[![GitHub license](https://img.shields.io/github/license/kbronik2017/UCL_MS)](https://github.com/kbronik2017/UCL_MS/blob/master/LICENSE)
 
 
 # Deep Multi-task Learning Framework for Image Segmentation (Cross Sectional and Longitudinal data analysis)
