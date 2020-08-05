@@ -58,13 +58,13 @@ then for training
 
 
 ```sh
-  - python  -m tbb training_script_Cross_Sectional.py  [or training_script_Longitudinal.py]
+  - python -m tbb training_script_Cross_Sectional.py  [or training_script_Longitudinal.py]
 ``` 
 
 for testing
 
 ```sh
-  - python  -m tbb inference_script_Cross_Sectional.py  [or inference_script_Longitudinal.py]
+  - python -m tbb inference_script_Cross_Sectional.py  [or inference_script_Longitudinal.py]
 ``` 
 
 # Testing the Program!
