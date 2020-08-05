@@ -4,7 +4,7 @@
 [![GitHub license](https://img.shields.io/github/license/kbronik2017/UCL_MS)](https://github.com/kbronik2017/UCL_MS/blob/master/LICENSE)
 
 
-# Deep Multi-task Learning Framework for Image Segmentation (Cross Sectional and Longitudinal data analysis)
+# Adaptive Deep Multi-task Learning Framework for Image Segmentation (Cross Sectional and Longitudinal data analysis)
 
 
 ![multiple sclerosis (MS) lesion segmentation](images/brain_lesion.gif)
