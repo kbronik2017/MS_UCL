@@ -18,23 +18,23 @@ Then
 
 
 ```sh
-  - conda env create -f conda_environment_Training_Inference.yml  
+  - conda env create -f cnn_run_conda_environment_cpu.yml  
 ``` 
 and 
 
 ```sh
-  - conda activate traintestenv  
+  - conda activate idptfcpu  
 ``` 
 finally
 
 ```sh
-  - python  Training_Inference_GUI.py 
+  - python  CNN_Longitudinal_CrossSectional_GUI.py 
 ``` 
 
 After lunching the graphical user interface, user will need to provide necessary information to start training/testing as follows:  
 
 <br>
- <img height="510" src="images/GUI.jpg" />
+ <img height="510" src="images/help.png" />
 </br>
 
 
@@ -43,19 +43,19 @@ After lunching the graphical user interface, user will need to provide necessary
 First 
 
 ```sh
-  - conda activate traintestenv  
+  - conda activate idptfcpu  
 ``` 
 then for training
 
 
 ```sh
-  - python  segmentation_network_Training_without_GUI.py  [or annotation_network_Training_without_GUI.py]
+  - python  -m tbb training_script_Cross_Sectional.py  [or training_script_Longitudinal.py]
 ``` 
 
 for testing
 
 ```sh
-  - python  segmentation_network_Inference_without_GUI.py  [or annotation_network_Inference_without_GUI.py]
+  - python  -m tbb inference_script_Cross_Sectional.py  [or inference_script_Longitudinal.py]
 ``` 
 
 # Testing the Program!
