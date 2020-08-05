@@ -9,6 +9,17 @@
 
 ![multiple sclerosis (MS) lesion segmentation](images/brain_lesion.gif)
 
+<br>
+ <img height="510" src="images/Homogeneous.jpg"/>
+</br>
+
+..................................................................................................................................................................
+
+
+<br>
+ <img height="510" src="images/Hybrid.jpg"/>
+</br>
+
 
 # Running the GUI Program! 
 
