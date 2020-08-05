@@ -7,9 +7,8 @@
 # Deep Multi-task Learning Framework for Image Segmentation (Cross Sectional and Longitudinal data analysis)
 
 
-<br>
- ![Farmers Market Finder Demo](images/brain_lesion.gif)
-</br>
+![multiple sclerosis (MS) lesion segmentation](images/brain_lesion.gif)
+
 
 # Running the GUI Program! 
 
