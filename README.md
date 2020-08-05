@@ -4,11 +4,11 @@
 [![GitHub license](https://img.shields.io/github/license/UCLBrain/MSLS)](https://github.com/UCLBrain/MSLS/blob/master/LICENSE)
 
 
-# Multi-Label Multi/Single-Class Image Segmentation
+# Deep Multi-task Learning Framework for Image Segmentation (Cross Sectional and Longitudinal data analysis)
 
 
 <br>
- <img height="510" src="images/diag.png"/>
+ ![Farmers Market Finder Demo](images/brain_lesion.gif)
 </br>
 
 # Running the GUI Program! 
@@ -60,18 +60,6 @@ for testing
 ``` 
 
 # Testing the Program!
-
-<br>
- <img height="510" src="images/bin_seg_ex.jpg" />
-</br>
-
-..................................................................................................................................................................
-
-<br>
- <img height="510" src="images/multi_seg_ex.jpg" />
-</br>
-
-
 
 
 
