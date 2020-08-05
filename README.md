@@ -18,12 +18,18 @@ Then
 
 
 ```sh
-  - conda env create -f cnn_run_conda_environment_cpu.yml  
+CPU run
+  - conda env create -f cnn_run_conda_environment_cpu.yml 
+GPU run
+  - conda env create -f cnn_run_conda_environment_gpu.yml 
 ``` 
 and 
 
 ```sh
-  - conda activate idptfcpu  
+CPU run
+  - conda activate idptfcpu
+GPU run 
+  - conda activate tf-gpu
 ``` 
 finally
 
@@ -43,7 +49,10 @@ After lunching the graphical user interface, user will need to provide necessary
 First 
 
 ```sh
-  - conda activate idptfcpu  
+CPU run
+  - conda activate idptfcpu
+GPU run 
+  - conda activate tf-gpu
 ``` 
 then for training
 
