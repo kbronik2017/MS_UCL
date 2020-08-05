@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d2574b8-d5a6-4035-90cd-ce941338a508" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/kevinbronik.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/nic3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InputIssueReportfile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/docs/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/examples/mnist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/examples/recurrent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/layers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/layers/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/layers/conv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/layers/corrmm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/layers/cuda_convnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/layers/dense.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/layers/dnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/layers/embedding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/layers/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/layers/input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/layers/local.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/layers/merge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/layers/noise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/layers/normalization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/layers/pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/layers/recurrent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/layers/shape.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/layers/special.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/nonlinearities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/objectives.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/random.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/regularization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/layers/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/layers/test_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/layers/test_conv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/layers/test_dense.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/layers/test_embedding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/layers/test_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/layers/test_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/layers/test_local.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/layers/test_merge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/layers/test_noise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/layers/test_normalization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/layers/test_pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/layers/test_recurrent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/layers/test_shape.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/layers/test_special.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/test_examples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/test_init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/test_nonlinearities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/test_objectives.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/test_regularization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/test_theano_extensions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/test_updates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/tests/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/theano_extensions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/theano_extensions/conv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/theano_extensions/padding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/updates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/lasagne/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lasagne/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OutputIssueReportfile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/.cython-post-link.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/2to3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/2to3-3.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/acountry" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/adig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/ahost" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/bokeh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/c_rehash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/captoinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/chardetect" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/clear" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/cygdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/cython" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/cythonize" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/dask-mpi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/dask-remote" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/dask-scheduler" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/dask-ssh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/dask-submit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/dask-worker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/easy_install" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/easy_install-3.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/f2py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/f2py3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/f2py3.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/freetype-config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/freeze_graph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/gdie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/idle3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/idle3.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/infocmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/infotocap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/libpng-config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/libpng16-config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/lzcat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/lzcmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/lzdiff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/lzegrep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/lzfgrep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/lzgrep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/lzless" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/lzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/lzmadec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/lzmainfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/lzmore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/markdown_py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_anisotropic_diffusion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_apparent_diffusion_coefficient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_binary_resampling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_convert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_create_empty_volume_by_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_dicom_slices_to_volume.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_dicom_to_4D.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_diff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_extract_contour.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_extract_min_max.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_extract_sub_volume.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_extract_sub_volume_auto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_extract_sub_volume_by_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_fit_into_shape.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_gradient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_graphcut_label.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_graphcut_label_bgreduced.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_graphcut_label_w_regional.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_graphcut_label_wsplit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_graphcut_voxel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_grid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_intensity_range_standardization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_intersection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_itk_gradient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_itk_smoothing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_itk_watershed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_join_masks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_join_xd_to_xplus1d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_label_count.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_label_fit_to_mask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_label_superimposition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_merge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_morphology.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_resample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_reslice_3d_to_4d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_set_pixel_spacing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_shrink_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_split_xd_to_xminus1d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_stack_sub_volumes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_swap_dimensions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_watershed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/medpy_zoom_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/ncursesw6-config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/nib-dicomfs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/nib-ls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/nib-nifti-dx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/numba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/openssl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/parrec2nii" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/pip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/pip3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/pip3.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/png-fix-itxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/pngfix" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/protoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/pycc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/pydoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/pydoc3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/pydoc3.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/python" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/python3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/python3-config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/python3.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/python3.6-config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/python3.6m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/python3.6m-config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/pyvenv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/pyvenv-3.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/reset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/saved_model_cli" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/sqlite3_analyzer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/tabs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/tclsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/tclsh8.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/tensorboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/tf_upgrade_v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/tflite_convert" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/tic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/toco" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/toco_from_protos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/toe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/tput" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/tset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/unlzma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/unxz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/wheel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/wish" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/wish8.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/xz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/xzcat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/xzcmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/xzdec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/xzdiff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/xzegrep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/xzfgrep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/xzgrep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/xzless" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bin/xzmore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorb.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tweaked_ImageGenerator_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.theanorc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_scripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn_scripts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/configuration.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/config/configuration.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/default.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/CNN/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/CNN/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/CNN/build_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/CNN/build_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/CNN/defaults/baseline/nets/model_1.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/CNN/defaults/baseline/nets/model_1_history.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/CNN/defaults/baseline/nets/model_2.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/CNN/defaults/baseline/nets/model_2_history.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/CNN/nets.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/CNN/nets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/linux/ROBEX/runROBEX.bat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/linux/ROBEX/runROBEX.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/linux/ROBEX/runROBEX.sh" beforeDir="false" afterPath="$PROJECT_DIR$/libs/linux/ROBEX/runROBEX.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/linux/niftyreg/reg_aladin" beforeDir="false" afterPath="$PROJECT_DIR$/libs/linux/niftyreg/reg_aladin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/linux/niftyreg/reg_f3d" beforeDir="false" afterPath="$PROJECT_DIR$/libs/linux/niftyreg/reg_f3d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/linux/niftyreg/reg_resample" beforeDir="false" afterPath="$PROJECT_DIR$/libs/linux/niftyreg/reg_resample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/linux/niftyreg/reg_transform" beforeDir="false" afterPath="$PROJECT_DIR$/libs/linux/niftyreg/reg_transform" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/ROBEX.exe" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/ROBEX.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/256.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/256.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/EDGES_ir.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/EDGES_ir.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/EDGES_jc.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/EDGES_jc.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/EDGES_pr.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/EDGES_pr.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/PHI.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/PHI.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/PHI2.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/PHI2.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/T_ir.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/T_ir.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/T_jc.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/T_jc.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/T_pr.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/T_pr.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/bestvar.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/bestvar.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/classwt.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/classwt.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/cutoff.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/cutoff.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/face.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/face.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/lambda.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/lambda.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/lambda2.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/lambda2.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/mean_normals.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/mean_normals.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/mu.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/mu.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/ndbigtree.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/ndbigtree.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/nodeclass.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/nodeclass.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/nodestatus.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/nodestatus.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/treemap.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/treemap.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/dat/xbestsplit.dat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/dat/xbestsplit.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/ref_vols/Mini.nii.gz" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/ref_vols/Mini.nii.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/ref_vols/atlas.nii.gz" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/ref_vols/atlas.nii.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/ref_vols/atlas_mask.nii.gz" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/ref_vols/atlas_mask.nii.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/ref_vols/atlas_mask_dilated.nii.gz" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/ref_vols/atlas_mask_dilated.nii.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/ref_vols/atlas_mask_eroded.nii.gz" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/ref_vols/atlas_mask_eroded.nii.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/ROBEX/runROBEX.bat" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/ROBEX/runROBEX.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/niftyreg/reg_aladin.exe" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/niftyreg/reg_aladin.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/niftyreg/reg_average.exe" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/niftyreg/reg_average.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/niftyreg/reg_f3d.exe" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/niftyreg/reg_f3d.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/niftyreg/reg_jacobian.exe" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/niftyreg/reg_jacobian.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/niftyreg/reg_resample.exe" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/niftyreg/reg_resample.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/niftyreg/reg_tools.exe" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/niftyreg/reg_tools.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/win/niftyreg/reg_transform.exe" beforeDir="false" afterPath="$PROJECT_DIR$/libs/win/niftyreg/reg_transform.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logonic.png" beforeDir="false" afterPath="$PROJECT_DIR$/logonic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/load_tags.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/load_training_folder.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/nicMSlesions.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/select_net.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/set_training_options.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/testing.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/update.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nets/baseline_2ch/nets/model_1.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/nets/baseline_2ch/nets/model_1.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nets/baseline_2ch/nets/model_2.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/nets/baseline_2ch/nets/model_2.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nicMSlesion_linux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nicMSlesion_win.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nic_infer_segmentation_batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/nic_infer_segmentation_batch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nic_train_network_batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/nic_train_network_batch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nic_train_network_leave_one_out.py" beforeDir="false" afterPath="$PROJECT_DIR$/nic_train_network_leave_one_out.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/load_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/load_options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/postprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/postprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/preprocess.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectId" id="1PN5voozOktPr9x0caIEESm8qdx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../build_model.py" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.CNN_Longitudinal_CrossSectional_GUI">
+    <configuration name="CNN_Longitudinal_CrossSectional_GUI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LongitudinalCrossSectional" />
+      <option name="INTERPRETER_OPTIONS" value="-m tbb" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/idp3xyx/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN_Longitudinal_CrossSectional_GUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="inference_script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nic3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/cnnidp/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inference_script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="inference_script_Longitudinal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nic3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inference_script_Longitudinal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="training_script_Cross_Sectional" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LongitudinalCrossSectional" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/tf-gpu/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/training_script_Cross_Sectional.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="training_script_Longitudinal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nic3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/training_script_Longitudinal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.CNN_Longitudinal_CrossSectional_GUI" />
+      <item itemvalue="Python.inference_script" />
+      <item itemvalue="Python.inference_script_Longitudinal" />
+      <item itemvalue="Python.training_script_Cross_Sectional" />
+      <item itemvalue="Python.training_script_Longitudinal" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.CNN_Longitudinal_CrossSectional_GUI" />
+        <item itemvalue="Python.training_script_Cross_Sectional" />
+        <item itemvalue="Python.inference_script_Longitudinal" />
+        <item itemvalue="Python.training_script_Longitudinal" />
+        <item itemvalue="Python.inference_script" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d2574b8-d5a6-4035-90cd-ce941338a508" name="Default Changelist" comment="" />
+      <created>1556893440517</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556893440517</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/data/nicMSlesions" />
+      <path value="$PROJECT_DIR$/data/nicMSlesions/Lasagne" />
+      <path value="$USER_HOME$" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="622" y="234" width="732" height="637" key="#Inspections" timestamp="1589982939206">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="622" y="234" width="732" height="637" key="#Inspections/67.27.1853.1053@67.27.1853.1053" timestamp="1589982939206" />
+    <state x="655" y="143" width="666" height="819" key="#build_model" timestamp="1589982807434">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="655" y="143" width="666" height="819" key="#build_model/67.27.1853.1053@67.27.1853.1053" timestamp="1589982807434" />
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595592151035">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1595592151035" />
+    <state x="676" y="354" width="624" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592477330180">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="676" y="354" width="624" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1592477330180" />
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593098726645">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1593098726645" />
+    <state x="771" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1592477625787">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="771" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1592477625787" />
+    <state width="1830" height="269" key="GridCell.Tab.0.bottom" timestamp="1596637031023">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="269" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1596637031023" />
+    <state width="1830" height="269" key="GridCell.Tab.0.center" timestamp="1596637031022">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="269" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1596637031022" />
+    <state width="1830" height="269" key="GridCell.Tab.0.left" timestamp="1596637031021">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="269" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1596637031021" />
+    <state width="1830" height="269" key="GridCell.Tab.0.right" timestamp="1596637031022">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="269" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1596637031022" />
+    <state width="1830" height="344" key="GridCell.Tab.1.bottom" timestamp="1592231713758">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1592231713758" />
+    <state width="1830" height="344" key="GridCell.Tab.1.center" timestamp="1592231713756">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1592231713756" />
+    <state width="1830" height="344" key="GridCell.Tab.1.left" timestamp="1592231713755">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1592231713755" />
+    <state width="1830" height="344" key="GridCell.Tab.1.right" timestamp="1592231713757">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1830" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1592231713757" />
+    <state x="482" y="187" width="991" height="730" key="SettingsEditor" timestamp="1595416809699">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="187" width="991" height="730" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1595416809699" />
+    <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1589982939574">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1589982939574" />
+    <state x="772" y="244" width="432" height="616" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1594640662327">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="772" y="244" width="432" height="616" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1594640662327" />
+    <state x="684" y="161" width="948" height="783" key="find.popup" timestamp="1596630693302">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="684" y="161" width="948" height="783" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1596630693302" />
+    <state x="826" y="325" width="325" height="455" key="refactoring.ChangeSignatureDialog" timestamp="1591624654183">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="826" y="325" width="325" height="455" key="refactoring.ChangeSignatureDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1591624654183" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
