@@ -20,6 +20,12 @@
  <img height="510" src="images/Hybrid.jpg"/>
 </br>
 
+# Training/Cross-Validation/Test Data Sets
+
+<br>
+ <img height="510" src="images/hf.jpg"/>
+</br>
+
 
 # Running the GUI Program! 
 
