@@ -89,6 +89,6 @@ for testing
 # Testing the Program!
 
 <br>
- <img height="600" src="images/examp.png"/>
+ <img height="520" src="images/examp.png"/>
 </br>
 
