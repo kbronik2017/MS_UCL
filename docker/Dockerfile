@@ -256,15 +256,6 @@ RUN cat /etc/ssh/ssh_config | grep -v StrictHostKeyChecking > /etc/ssh/ssh_confi
     echo "    StrictHostKeyChecking no" >> /etc/ssh/ssh_config.new && \
     mv /etc/ssh/ssh_config.new /etc/ssh/ssh_config
 
-
-# ADD requirements.txt /requirements.txt
-# RUN conda install numpy scipy mkl
-# RUN conda install theano pygpu
-# RUN pip install pip --upgrade
-# RUN pip install -r /requirements.txt
-# RUN pip uninstall protobuf
-# RUN conda install tensorflow-gpu
-
 # create a docker user
 RUN useradd -ms /bin/bash docker
 ENV HOME /home/docker
