@@ -198,14 +198,7 @@ RUN conda install -y python=${python_version} && \
     git clone git://github.com/keras-team/keras.git /src && pip install -e /src[tests] && \
     pip install git+git://github.com/keras-team/keras.git && \
     conda clean -yt
-# install CNN related packages
-ADD requirements.txt /requirements.txt
-# RUN conda install numpy scipy mkl
-# RUN conda install theano pygpu
-# RUN pip install pip --upgrade
-# RUN pip install -r /requirements.txt
-# RUN pip uninstall protobuf
-# RUN conda install tensorflow-gpu
+
 
 # create a docker user
 RUN useradd -ms /bin/bash docker
