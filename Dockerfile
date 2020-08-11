@@ -177,7 +177,6 @@ RUN conda install -y python=${python_version} && \
       scipy \
       Pillow \
       click \
-      cntk \
       tensorflow-gpu && \    
     conda install \
       bcolz \
