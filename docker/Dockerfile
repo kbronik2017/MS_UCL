@@ -261,7 +261,7 @@ ENV HOME /home/docker
 # copy necessary files to container
 RUN mkdir $HOME/src
 ENV PATH=/$HOME/src:${PATH}
-ADD __init__.py $HOME/src/
+
 RUN mkdir $HOME/src
 ENV PATH=/$HOME/src:${PATH}
 
