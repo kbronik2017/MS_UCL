@@ -52,10 +52,10 @@ ENV SSHDIR ${HOME}/.ssh/
 
 RUN mkdir -p ${SSHDIR}
 
-ADD ssh/config ${SSHDIR}/config
-ADD ssh/id_rsa.mpi ${SSHDIR}/id_rsa
-ADD ssh/id_rsa.mpi.pub ${SSHDIR}/id_rsa.pub
-ADD ssh/id_rsa.mpi.pub ${SSHDIR}/authorized_keys
+ADD https://github.com/kbronik2017/UCL_MS/ssh/config ${SSHDIR}/config
+ADD https://github.com/kbronik2017/UCL_MS/ssh/id_rsa.mpi ${SSHDIR}/id_rsa
+ADD https://github.com/kbronik2017/UCL_MS/ssh/id_rsa.mpi.pub ${SSHDIR}/id_rsa.pub
+ADD https://github.com/kbronik2017/UCL_MS/ssh/id_rsa.mpi.pub ${SSHDIR}/authorized_keys
 
 RUN chmod -R 600 ${SSHDIR}* && \
     chown -R ${USER}:${USER} ${SSHDIR}
