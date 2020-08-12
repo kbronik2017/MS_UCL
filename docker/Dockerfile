@@ -48,17 +48,17 @@ RUN adduser --disabled-password --gecos "" ${USER} && \
 # Set-Up SSH with our Github deploy key
 # ------------------------------------------------------------
 
-ENV SSHDIR ${HOME}/.ssh/
+# ENV SSHDIR ${HOME}/.ssh/
 
-RUN mkdir -p ${SSHDIR}
+# RUN mkdir -p ${SSHDIR}
 
-ADD https://github.com/kbronik2017/UCL_MS/ssh/config ${SSHDIR}/config
-ADD https://github.com/kbronik2017/UCL_MS/ssh/id_rsa.mpi ${SSHDIR}/id_rsa
-ADD https://github.com/kbronik2017/UCL_MS/ssh/id_rsa.mpi.pub ${SSHDIR}/id_rsa.pub
-ADD https://github.com/kbronik2017/UCL_MS/ssh/id_rsa.mpi.pub ${SSHDIR}/authorized_keys
+# ADD https://github.com/kbronik2017/UCL_MS/ssh/config ${SSHDIR}/config
+# ADD https://github.com/kbronik2017/UCL_MS/ssh/id_rsa.mpi ${SSHDIR}/id_rsa
+# # ADD https://github.com/kbronik2017/UCL_MS/ssh/id_rsa.mpi.pub ${SSHDIR}/id_rsa.pub
+# ADD https://github.com/kbronik2017/UCL_MS/ssh/id_rsa.mpi.pub ${SSHDIR}/authorized_keys
 
-RUN chmod -R 600 ${SSHDIR}* && \
-    chown -R ${USER}:${USER} ${SSHDIR}
+# RUN chmod -R 600 ${SSHDIR}* && \
+#     chown -R ${USER}:${USER} ${SSHDIR}
 
 RUN pip install --upgrade pip
 
