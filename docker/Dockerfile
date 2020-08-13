@@ -269,7 +269,7 @@ ENV PATH=/$HOME/src:${PATH}
 # COPY sources $HOME/src/sources
 # COPY images $HOME/src/images
 # COPY tensorboardlogs $HOME/src/
-Add .. $HOME/src/
+Add . $HOME/src/
 
 USER docker
 WORKDIR $HOME/src
