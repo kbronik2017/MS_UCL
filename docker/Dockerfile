@@ -261,14 +261,15 @@ ENV HOME /home/docker
 # copy necessary files to container
 RUN mkdir $HOME/src
 ENV PATH=/$HOME/src:${PATH}
-
-ADD CNN_Longitudinal_CrossSectional_GUI.py $HOME/src/
-ADD training_script_Cross_Sectional.py $HOME/src/
-ADD training_script_Longitudinal.py $HOME/src/
-ADD libs $HOME/src/libs
-ADD sources $HOME/src/sources
-ADD images $HOME/src/images
-ADD tensorboardlogs $HOME/src/
+ 
+# COPY CNN_Longitudinal_CrossSectional_GUI.py $HOME/src/
+# COPY training_script_Cross_Sectional.py $HOME/src/
+# COPY training_script_Longitudinal.py $HOME/src/
+# COPY libs $HOME/src/libs
+# COPY sources $HOME/src/sources
+# COPY images $HOME/src/images
+# COPY tensorboardlogs $HOME/src/
+COPY . $HOME/src/
 
 USER docker
 WORKDIR $HOME/src
