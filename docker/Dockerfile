@@ -262,9 +262,6 @@ ENV HOME /home/docker
 RUN mkdir $HOME/src
 ENV PATH=/$HOME/src:${PATH}
 
-RUN mkdir $HOME/src
-ENV PATH=/$HOME/src:${PATH}
-
 ADD CNN_Longitudinal_CrossSectional_GUI.py $HOME/src/
 ADD training_script_Cross_Sectional.py $HOME/src/
 ADD training_script_Longitudinal.py $HOME/src/
