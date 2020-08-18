@@ -86,7 +86,8 @@ for testing
   - python -m tbb inference_script_Cross_Sectional.py  [or inference_script_Longitudinal.py]
 ``` 
 
-# Testing the Program!
+# Testing the Program (User Quick Start Guide) 
+Examples of Training, Cross-validation and Testing subjects can be found in https://github.com/kbronik2017/UCL_MS/tree/master/examples/mnist_dataset which will allow users to quickly and easily train and test the program.
 
 <br>
  <img height="520" src="images/examp.png"/>
